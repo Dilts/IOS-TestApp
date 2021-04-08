@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ShareView: View {
     var body: some View {
-        Text("this view will probably be deleted")
+        Text("this view will probably be deleted. check that, it will")
     }
 }
 
