@@ -10,7 +10,9 @@ import SwiftUI
 struct RecipeListView: View {
     
     // Reference the view model
-    @ObservedObject var model = RecipeModel()
+//    @ObservedObject var model = RecipeModel()
+    // Remove the @ObservedObject that was getting the data and add a property that calls the data from the RecipeTabView where we set the data as an .environmentObject
+    @EnvironmentObject var model:RecipeModel
     
     var body: some View {
         
