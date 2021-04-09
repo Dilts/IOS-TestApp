@@ -27,6 +27,8 @@ struct RecipeTabView: View {
                     }
                 }
         }
+        // Make an environmentObject to store the data so that it is accesible in all the Children of this View
+//        .environmentObject(RecipeModel())
         
         
     }
