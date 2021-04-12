@@ -19,6 +19,7 @@
 		869AD5DE261E3C09006F0D2C /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869AD5DD261E3C09006F0D2C /* RecipeModel.swift */; };
 		869AD5E2261E3E01006F0D2C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869AD5E1261E3E01006F0D2C /* DataService.swift */; };
 		86C422832624C324005F9568 /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C422822624C324005F9568 /* Rational.swift */; };
+		86C422862624D714005F9568 /* RecipeHighlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C422852624D714005F9568 /* RecipeHighlights.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		869AD5DD261E3C09006F0D2C /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		869AD5E1261E3E01006F0D2C /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		86C422822624C324005F9568 /* Rational.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rational.swift; sourceTree = "<group>"; };
+		86C422852624D714005F9568 /* RecipeHighlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeHighlights.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				86368CE0261FAFF10010A2C8 /* RecipeFeaturedView.swift */,
 				869AD5C2261E26A1006F0D2C /* RecipeListView.swift */,
 				86368C9F261F641B0010A2C8 /* RecipeDetailView.swift */,
+				86C422852624D714005F9568 /* RecipeHighlights.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			files = (
 				86368CC2261F8A390010A2C8 /* RecipeTabView.swift in Sources */,
 				869AD5DA261E3AB5006F0D2C /* Recipe.swift in Sources */,
+				86C422862624D714005F9568 /* RecipeHighlights.swift in Sources */,
 				86C422832624C324005F9568 /* Rational.swift in Sources */,
 				86368CA0261F641B0010A2C8 /* RecipeDetailView.swift in Sources */,
 				869AD5DE261E3C09006F0D2C /* RecipeModel.swift in Sources */,
